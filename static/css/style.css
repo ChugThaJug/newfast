@@ -1,0 +1,80 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.guide-content {
+    line-height: 1.6;
+}
+
+.guide-content h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.guide-content ul, .guide-content ol {
+    margin-bottom: 1em;
+    padding-left: 2em;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.timestamp {
+    cursor: pointer;
+}
+
+.timestamp:hover {
+    background-color: #f8f9fa;
+}
+
+.timestamp .badge {
+    margin-right: 10px;
+}
+
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --navbar-bg: #f8f9fa;
+    --card-bg: #ffffff;
+    --card-border: rgba(0,0,0,.125);
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --navbar-bg: #1e1e1e;
+    --card-bg: #1e1e1e;
+    --card-border: #333;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar {
+    background-color: var(--navbar-bg) !important;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border-color: var(--card-border);
+}
+
+/* Add more styles using CSS variables */
+
+
+
+body, .navbar, .card, .modal-content {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}

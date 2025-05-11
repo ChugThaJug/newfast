@@ -1,0 +1,1 @@
+export { default } from "file:///C:/Users/there/Desktop/stepify-fastapi/frontend/node_modules/@nuxt/vite-builder/dist/runtime/client.manifest.mjs"
